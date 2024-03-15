@@ -40,9 +40,6 @@ btn_login.addEventListener("click", ()=>{
         (Os campos de e-mail e senha devem ser preenchidos.)
         `)
     } else if (validEmail(input_email.value) === true && validPassword(input_password.value) === true) {
-        console.log(input_email.value)
-        console.log(input_password.value)
-        
         input_email.textContent = ""
         input_password.textContent = ""
     }
