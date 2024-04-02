@@ -34,7 +34,7 @@ input_password.addEventListener("keyup",()=>{
 })
 
 btn_login.addEventListener("click", ()=>{
-    if(input_email.value == "" || input_password.valeu == ""){
+    if(input_email.value == "" || input_password.value == ""){
         alert(`
              The email and password fields must be filled in.
         (Os campos de e-mail e senha devem ser preenchidos.)
